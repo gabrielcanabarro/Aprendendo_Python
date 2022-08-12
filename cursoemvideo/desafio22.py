@@ -1,0 +1,6 @@
+nome = str(input('Digite nome e sobrenome: ')).strip()
+print('Seu nome em maiúsculo é {}.'.format(nome.upper()))
+print('Seu nome tem {} letras.'.format(len(nome) - nome.count(' ')))
+#print('Seu primeiro nome tem {} letras.'.format(nome.find(' ')))
+separado = nome.split()
+print('Seu primeiro nome é \033[30m{}\033[m e tem \033[36m{}\033[m letras.'.format(separado[0], len(separado[0])))

@@ -1,0 +1,8 @@
+n1 = int(input('Digite um valor: '))
+n2 = int(input('Digite um valor: '))
+n3 = int(input('Digite um valor: '))
+n4 = int(input('Digite um valor: '))
+num = (n1, n2, n3, n4)
+print(f'O número 9 apareceu {num.count(9)} vez(es).')
+print(f'O número 3 apareceu na posição {num.index(3)+1}.')
+print(f'')
